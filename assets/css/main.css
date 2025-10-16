@@ -3345,3 +3345,21 @@ body.is-touch .poptrox-popup .closer {
 	}
 
 }
+
+
+/* AP */
+.small-font {
+	font-size: 0.8em;
+	/* default smaller size */
+	line-height: 1.2em;
+	margin-left: 1em;
+}
+
+/* Responsive adjustment for mobile/smaller screens */
+@media (max-width: 600px) {
+	.small-font {
+		font-size: 0.7em;
+		line-height: 1.1em;
+		margin-left: 0.5em;
+	}
+}
